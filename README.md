@@ -1,12 +1,12 @@
-North [![Analytics](https://ga-beacon.appspot.com/UA-46859145-1/snugug/north?pixel)](https://github.com/snugug/north)
-====================
+North
+=====
 **Align and Guide Your Project**
 
 North is a set of standards and best practices for developing modern web based properties. Included are standards and best practices for all aspects of a project, from kick off through development. North encourages an agile, content-first, approach to product development and a mobile-first, in-browser, system based approach to design and development.
 
-North is meant to be a living document. Standards and best practices change, and as they do and have been vetted, North will grow and change with them. North will be versioned using [SEMVER](http://semver.org/) to provide a way for you to specify what version of North you are using for your project. Contributions are more than welcome, as long as the [Contribution Guidelines](https://github.com/Snugug/north/blob/master/CONTRIBUTING.md) are followed.
+North is meant to be a living document. Standards and best practices change, and as they do and have been vetted, North will grow and change with them. North will be versioned using [SEMVER](http://semver.org/) to provide a way for you to specify what version of North you are using for your project. Contributions are more than welcome, as long as the [Contribution Guidelines](https://github.com/carrot/north/blob/master/CONTRIBUTING.md) are followed.
 
-*Currently open to review, [v0.1.1](https://github.com/Snugug/north/releases/tag/v0.1.1) is the first preview version. Once the review period is over, a branch for the current major version will be made.*
+*Currently open to review, [v0.1.1](https://github.com/carrot/north/releases/tag/v0.1.1) is the first preview version. Once the review period is over, a branch for the current major version will be made.*
 
 # Table of Contents
 
@@ -490,7 +490,7 @@ While building out an IA, the product's [content mode](#content-mode) may need t
 
 [![The Treachery of Images, René Magritte](https://github-camo.global.ssl.fastly.net/dcd607b42abcde7f1a96394f797a700270f6e7db/687474703a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f622f62392f4d61677269747465506970652e6a7067)](http://en.wikipedia.org/wiki/The_Treachery_Of_Images)
 
-As the web comes into its own as a medium and the [rituals of print design](http://snugug.github.io/designing-the-modern-web/#/ritual) are cast off, websites can no longer be designed in the same tools built for print design. Websites have interaction, states change, items come in and out. The [differences in browsers](#progressive-enhancement) force designs to change based on capabilities available. Even something as simple as screen size is not static. As [Brad Frost put it](https://twitter.com/brad_frost/status/195241868383092736), "You can't articulate fluidity on paper." The reality of the web has always been that a single, static bitmap representation of a page isn't what a final site will be, it's just taken the push of [responsive web design](#responsive-web-design) to bring the web into its own as a medium. In order to accommodate for the fluidity and flexibility of the medium of the web, new tools and techniques are needed to create a site's look and feel.
+As the web comes into its own as a medium and the [rituals of print design](http://carrot.github.io/designing-the-modern-web/#/ritual) are cast off, websites can no longer be designed in the same tools built for print design. Websites have interaction, states change, items come in and out. The [differences in browsers](#progressive-enhancement) force designs to change based on capabilities available. Even something as simple as screen size is not static. As [Brad Frost put it](https://twitter.com/brad_frost/status/195241868383092736), "You can't articulate fluidity on paper." The reality of the web has always been that a single, static bitmap representation of a page isn't what a final site will be, it's just taken the push of [responsive web design](#responsive-web-design) to bring the web into its own as a medium. In order to accommodate for the fluidity and flexibility of the medium of the web, new tools and techniques are needed to create a site's look and feel.
 
 > The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility. But first, we must 'accept the ebb and flow of things.'
 >
@@ -520,7 +520,7 @@ This hierarchy can be applied to websites as well.
 
 As with Maslow's hierarchy of needs as it relates to humans, a website's base needs must be fulfilled in order for self-actualization to occur. If any step negatively affects a step below it, that needs to be rethought. Self-actualization cannot have a negative impact on esteem, belonging, safety, or physiological needs, and so on.
 
-![Website Hierarchy of Needs](http://snugug.github.io/designing-the-modern-web/images/Website_Hierarchy-dark.svg)
+![Website Hierarchy of Needs](http://carrot.github.io/designing-the-modern-web/images/Website_Hierarchy-dark.svg)
 
 
 ## Consistency and Predictability
@@ -548,7 +548,7 @@ For generations, humans have used conversation to pass down stories and learn ab
 
 ## Grids
 
-Grids should be utilized to keep order on a page. As described in [Responsive Grids](http://snugug.github.io/responsive-grids/#/), grids enforce proportion and constraint on a design and provide order and structure to information. The best grid is specific to the content and design of a site, as it is an extension of both. In print, grids are easy as everything from the display size to the reading mode is fixed, but this is not true on the web, so a one-size-fits-all approach to grids doesn't work. While the [960 Grid](http://960.gs/) may have been a useful stopgap as the web was treated like print, but as it evolves, so must the grids used. The grids from Twitter Bootstrap or Zurb Foundation are no better; they are a single (if flexible) grid meant to cover everything in a generic way. Instead of using another designer's grid, create grids for the design and the content of the current site. The preferred grid framework to work in is [Singularity](https://github.com/team-sass/singularity) as it provides the flexibility needed to create complex and responsive grids that are truly custom to design and content.
+Grids should be utilized to keep order on a page. As described in [Responsive Grids](http://carrot.github.io/responsive-grids/#/), grids enforce proportion and constraint on a design and provide order and structure to information. The best grid is specific to the content and design of a site, as it is an extension of both. In print, grids are easy as everything from the display size to the reading mode is fixed, but this is not true on the web, so a one-size-fits-all approach to grids doesn't work. While the [960 Grid](http://960.gs/) may have been a useful stopgap as the web was treated like print, but as it evolves, so must the grids used. The grids from Twitter Bootstrap or Zurb Foundation are no better; they are a single (if flexible) grid meant to cover everything in a generic way. Instead of using another designer's grid, create grids for the design and the content of the current site. The preferred grid framework to work in is [Singularity](https://github.com/team-sass/singularity) as it provides the flexibility needed to create complex and responsive grids that are truly custom to design and content.
 
 Grids are primarily [layouts](#layouts) in CSS.
 
@@ -564,7 +564,7 @@ There are three parts that make up a grid; they are the columns, the gutters, an
 
 The most common type of grid is a symmetric grid. A symmetric grid is defined as a grid where each column is the same size. The most common type of symmetric grid is the 12 column symmetric grid. Symmetric grids have a tendency to constrain creativity in negative ways mostly due to the fact that for the most part designs built on symmetric grids have a tendency to look the same. There is an interesting mix of freedom and constraint in symmetric grids that, when used to lay out content on anything other than a column-by-column basis (4 columns, 4 identically sized pieces of content), provides enough flexibility to allow designs to meander.
 
-![Symmetric Grid](http://snugug.github.io/responsive-grids/images/symmetric-grid-bootstrap.png)
+![Symmetric Grid](http://carrot.github.io/responsive-grids/images/symmetric-grid-bootstrap.png)
 
 ### Asymmetric Grids
 
@@ -574,25 +574,25 @@ Unlike the common symmetric grid, the uncommon asymmetric grid provides for inte
 
 Custom asymmetric grids are asymmetric grids where column sizes are determined by the designer. Any set of columns of differing sizes can be used to create an asymmetric grid. This example shows a split gutter grid with columns in relation of `1 4 1`.
 
-![Custom Asymmetric Grid](http://snugug.github.io/responsive-grids/images/asymmetric-grid-custom.png)
+![Custom Asymmetric Grid](http://carrot.github.io/responsive-grids/images/asymmetric-grid-custom.png)
 
 #### Compound Grids
 
 Compound grids are asymmetric grids that are created by overlaying two or more symmetric girds on top of each other to create a new asymmetric grid. The example shows a 3-4 compound grid, where a 3 column symmetric and a 4 column symmetric grid are overlaid to create a 6 column asymmetric grid. Why not simply use a 12 column grid? With this compound grid, spans are constrained to multiples of 1/4 and 1/3, meaning that a span of 5/12 or 7/12 could not happen. The orange is the final grid, with the red showing the 3 column grid and blue showing the 4 column grid.
 
-![Compound Grid](http://snugug.github.io/responsive-grids/images/asymmetric-grid-compound.png)
+![Compound Grid](http://carrot.github.io/responsive-grids/images/asymmetric-grid-compound.png)
 
 #### Ratio Based Grids
 
 Ratio based grids are grids where each column is based on a ratio of the previous column. This allows for interesting constraints, such as allowing the ratios for vertical rhythm (font size, line height) to also be used for horizontal rhythm (the grid).
 
-![Ratio Based Grid](http://snugug.github.io/responsive-grids/images/asymmetric-grid-ratio.png)
+![Ratio Based Grid](http://carrot.github.io/responsive-grids/images/asymmetric-grid-ratio.png)
 
 #### Spiral Based Grids
 
 Spiral based grids are similar to ratio based grids in that they are likewise based on a ratio, but instead of each column getting progressively larger or smaller, the columns are determined based on parallel lines running through a spiral that degrades based on the ratio. Twitter for a time [used a golden ratio based spiral design](http://mashable.com/2010/09/29/new-twitter-golden-ratio/).
 
-![Spiral Based Grid](http://snugug.github.io/responsive-grids/images/asymmetric-grid-spiral.png)
+![Spiral Based Grid](http://carrot.github.io/responsive-grids/images/asymmetric-grid-spiral.png)
 
 ## Anti Patterns
 
@@ -818,7 +818,7 @@ Iconography is usually an integral part of complex designs and therefore it is i
 Images, usually either content images or background images in CSS, need to be handled slightly differently depending on the situation. For all images, if they can be expressed as an `.svg` (logos are a good place to use an `.svg`), they should be, with a [fallback](#graceful-degradation). If they cannot be, or if a fallback needs to be generated, an [optimized](http://www.smashingmagazine.com/2009/07/15/clever-png-optimization-techniques/) and compressed `.png` file should be used if transparency is needed, an [optimized](http://www.smashingmagazine.com/2009/07/01/clever-jpeg-optimization-techniques/) and compressed [progressive](http://calendar.perfplanet.com/2012/progressive-jpegs-a-new-best-practice/) `.jpg` should be used.
 
 * **High Pixel Density Images** - Instead of serving different sized images for pixel densities, utilize [compressive images](http://filamentgroup.com/lab/rwd_img_compression/) to serve low weight and crisp images.
-* **Content Images** - Content images should be loaded in using a responsive image solution. Unfortunately, there is currently no standard for responsive images, so one of two responsive image solutions should be used. The primary solution should be [Borealis](https://github.com/Snugug/borealis) which provides for element query based, lazy loaded responsive images. Because it is element query based, it may not work for all instances where an image is needed. For those instances, use [Picturefill](https://github.com/scottjehl/picturefill).
+* **Content Images** - Content images should be loaded in using a responsive image solution. Unfortunately, there is currently no standard for responsive images, so one of two responsive image solutions should be used. The primary solution should be [Borealis](https://github.com/carrot/borealis) which provides for element query based, lazy loaded responsive images. Because it is element query based, it may not work for all instances where an image is needed. For those instances, use [Picturefill](https://github.com/scottjehl/picturefill).
 * **CSS Images** - Utilize one of the approaches outlined in the [media query asset downloading test](http://timkadlec.com/2012/04/media-query-asset-downloading-results/) that has the least amount of additional requests. Be consistent with choice in solution.
 
 # Performance
@@ -946,7 +946,7 @@ Due to lack of standards around it, each browser manufacturer creates their own 
 
 ### Components
 
-Components are the primary building block of any interface. They are the bits and bobs that combine to form a cohesive user interface; from menus to messages, pagers to pictures, and everything else in between. Components should be written to be able to be dropped in to any position in a layout. The way to accomplish this is to build components using [**eq.js**](https://github.com/snugug/eq.js). This will allow a component and its elements to respond appropriately regardless of where they land in a given document flow. Components should be simple layouts to position elements inside of themselves either through extends or by constructing a component with elements placed inside an internal layout (decide before starting a project and carry that decision through the lifespan of the project) if the layout is not component specific. They may choose to control their overall sizing and one-off sizing and positioning, but those choices should be relative the container they are dropped in to and not layout or position specific.
+Components are the primary building block of any interface. They are the bits and bobs that combine to form a cohesive user interface; from menus to messages, pagers to pictures, and everything else in between. Components should be written to be able to be dropped in to any position in a layout. The way to accomplish this is to build components using [**eq.js**](https://github.com/carrot/eq.js). This will allow a component and its elements to respond appropriately regardless of where they land in a given document flow. Components should be simple layouts to position elements inside of themselves either through extends or by constructing a component with elements placed inside an internal layout (decide before starting a project and carry that decision through the lifespan of the project) if the layout is not component specific. They may choose to control their overall sizing and one-off sizing and positioning, but those choices should be relative the container they are dropped in to and not layout or position specific.
 
 #### Base Component
 
@@ -1266,17 +1266,6 @@ When building site, very often a point will come when a decision must be made as
 * Is the script performant? Does it have performance benchmarks? If not, can it be benchmarked? If a script, regardless of weight, slows down a site significantly, its use should be reconsidered.
 * Given browser support, is a heavy JavaScript library like jQuery or Dojo needed? Can paired down versions of those libraries be used? Does usage require the full support behind one of these libraries, or can a small DOM/AJAX library such as [Chibi](https://github.com/kylebarrow/chibi) be effective?
 
-# License and Acknowledgements
+### License and Acknowledgements
 
-Copyright © Sam Richard (Snugug) and made available under the [MIT License (MIT)](https://github.com/Snugug/north/blob/master/LICENSE).
-
-One of the primary goals of North was to create a set of development standards that not only were designed for a modern workflow and process in mind, but also that came from the learnings and understandings of multiple industry leading experts, not a single person. These standards reach across multiple verticals, so having experts from each vertical is critical to the success of these standards. The following individuals assisted in brainstorming and developing North or otherwise directly influenced North and have not otherwise been acknowledged in the document itself, and for that I am grateful:
-
-* [Mason Wendell](https://github.com/canarymason)
-* [Eric Duran](https://github.com/ericduran)
-* [Scott Rigby](https://github.com/scottrigby)
-* [Scott Nath](https://github.com/scottnath)
-* [Nicole Henninger](https://github.com/nikkiana)
-* [Marianne Maguire Flanagan](http://www.linkedin.com/in/mariannemaguire)
-* [Miguel Blanco](http://www.mikho.com/)
-* [Adam Asch](http://www.linkedin.com/pub/adam-asch/2/135/973)
+This project is a fork of [snugug/north](https://github.com/snugug/north) that's been modified for carrot's purposes
